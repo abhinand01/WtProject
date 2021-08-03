@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    div {
+      background-color: lightgrey;
+      width: 50px;
+     font-size: large;
+     font-weight: 100;
+      padding: 50px;
+      margin: 200px;
+    }
+    </style>
+<body>
+</p>
+      
+Gender:
+<input type="radio" name="gender" id="Male" onclick="call1()">Male
+<input type="radio" name="gender" id="Female" onclick="call2()">Female
+<input type="radio" name="gender" id="Others">Others
+  
+<br>
+    <div id="container">
+
+    </div>
+
+    <script>
+         function call1()
+         {
+            const xhr =new  XMLHttpRequest();
+        const container = document.getElementById('container');
+        xhr.onload = function(){
+            if(this.status===200){
+            container.innerHTML = xhr.responseText;
+            }else
+            console.log("wrong");
+        };
+
+        xhr.open('get','ex.html');
+        xhr.send();  
+         }
+         function call2()
+         {
+            const xhr =new  XMLHttpRequest();
+        const container = document.getElementById('container');
+        xhr.onload = function(){
+            if(this.status===200){
+            container.innerHTML = xhr.responseText;
+            }else
+            console.log("wrong");
+        };
+
+        xhr.open('get','getAmount.php');
+        xhr.send();
+         }
+        
+    </script>
+</body>
+
+
+</html>

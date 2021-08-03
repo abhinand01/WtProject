@@ -1,0 +1,50 @@
+[
+    {
+        "name":"Teen Wolf",
+        "image":"https://image.tmdb.org/t/p/original/jNXJYR4F18ykAujstJFBryhnYyO.jpg",
+        "color":"XML.html",
+        "code":"101"
+    },
+    {
+        "name":"Crown",
+        "image":"https://venngage-wordpress.s3.amazonaws.com/uploads/2018/03/font-psychology-17.png",
+        "color":"yellow",
+        "code":"102"
+    },
+    {
+        "name":"QuickSand",
+        "image":"https://mmarchny.com/wp-content/themes/ippo-shop-child/assets/images/qs/updated/MMarch-Design-Netflix-Quicksand-Maja.png",
+        "color":"pink",
+        "code":"103"
+    },
+    {
+        "name":"The <br>Originals",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3uOPO4AyUwLxPECtXE0wxuW2kL8OR-iNzIEkqW067bcE-tmk-ZjPIv222VTn3sBqg1CU&usqp=CAU",
+        "color":"XML.html",
+        "code":"104"
+    },
+    {
+        "name":"Locke & Key",
+        "image":"https://i.pinimg.com/474x/b9/15/18/b91518c8edad148bbaff64d670185d66.jpg",
+        "color":"#",
+        "code":"101"
+    },
+    {
+        "name":"Kingdom",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS9Cu2_0IrGIeGvNHoMgr6Eqn0F1XBwextEtN8BDMiZuVZiyUzYn0vqUKNG8M_eTSCBr4M&usqp=CAU",
+        "color":"#",
+        "code":"102"
+    },
+    {
+        "name":"Friends",
+        "image":"https://fliist.com/uploads/tv_show/image_en/12/cover_2x_friends.s1.jpg",
+        "color":"#",
+        "code":"103"
+    },
+    {
+        "name":"Stranger Things",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81akueB8XVL._SY879_.jpg",
+        "color":"#",
+        "code":"104"
+    }
+]

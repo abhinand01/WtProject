@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+  body
+  {
+    background-color: black;
+   color: white;
+  }
+  img {
+    max-width:100%;
+    height:auto;
+}
+</style>
+</head>
+<body>
+
+
+
+<p id="demo"></p>
+    <script>
+        
+        const xhr =new  XMLHttpRequest();
+    const container = document.getElementById('container');
+    xhr.onload = function(){
+        if(this.status===200){
+        const resObj = JSON.parse(this.responseText);
+        console.log(resObj);
+        var im = document.createElement("IMG");
+        
+    
+       text="<div class='container'><div class='row'>";
+    for (x in resObj) {
+     text+="<div class='col-sm-3'>";
+      text+= "<div class='card' style='width:200px;margin: 40px;'>";
+      text+="<img class='card-img-top' src="+resObj[x].image + ">";
+      text += "<div class='card-body' style=' background-color: black;'>";
+      text+= "<h4 class='card-title'>" + resObj[x].name+ "<h4>";
+        text+=" <a href="+resObj[x].color+" class='btn btn-primary'>Watch Now</a>  </div>";
+  
+        text += "</div></div>";  
+       
+    
+      }
+      text += "</div></div>"; 
+      document.getElementById("demo").innerHTML = text;
+  
+        }else
+        console.log("wrong");
+    };
+
+    xhr.open('get','data.json');
+    xhr.send();
+       
+</script>
+</body>
+</html>

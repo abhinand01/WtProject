@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd" id="WebApp_ID" version="4.0">
+  <display-name>ott_</display-name>
+ <servlet>
+ <servlet-name>hell</servlet-name>
+ <servlet-class>Login</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>hell</servlet-name>
+ <url-pattern>/Login</url-pattern>
+ </servlet-mapping>
+  <servlet>
+ <servlet-name>he</servlet-name>
+ <servlet-class>signup</servlet-class>
+ </servlet>
+ <servlet-mapping>
+ <servlet-name>he</servlet-name>
+ <url-pattern>/signup</url-pattern>
+ </servlet-mapping>
+   <servlet>
+ <servlet-name>she</servlet-name>
+ <servlet-class>logout</servlet-class>
+ </servlet>
+  <servlet-mapping>
+ <servlet-name>she</servlet-name>
+ <url-pattern>/logout</url-pattern>
+ </servlet-mapping>
+</web-app>
+</element>

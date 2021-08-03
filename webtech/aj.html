@@ -1,0 +1,38 @@
+<html>
+<head>
+    <style>
+        div{
+            margin: auto;
+  width: 60%;
+  
+  padding: 10px;
+        }
+    </style>
+<script>
+function showHint(str) {
+    if (str.length == 0) {
+        document.getElementById("txtHint").innerHTML = "";
+        return;
+    } else {
+        var xmlhttp = new XMLHttpRequest();
+        xmlhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                document.getElementById("txtHint").innerHTML = this.responseText;
+            }
+        };
+        xmlhttp.open("GET", "getAmount.php", true);
+        xmlhttp.send();
+    }
+}
+</script>
+</head>
+<body>
+
+
+<form>
+First name: <input type="text" onkeyup="showHint(this.value)">
+</form>
+<p><span id="txtHint" style="color: red;"></span></p>
+<div>helo</div>
+</body>
+</html>

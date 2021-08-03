@@ -1,0 +1,50 @@
+[
+    {
+        "name":"Teen Wolf",
+        "image":"https://image.tmdb.org/t/p/original/jNXJYR4F18ykAujstJFBryhnYyO.jpg",
+        "color":"pink",
+        "code":"101"
+    },
+    {
+        "name":"Crown",
+        "image":"https://venngage-wordpress.s3.amazonaws.com/uploads/2018/03/font-psychology-17.png",
+        "color":"yellow",
+        "code":"102"
+    },
+    {
+        "name":"QuickSand",
+        "image":"https://mmarchny.com/wp-content/themes/ippo-shop-child/assets/images/qs/updated/MMarch-Design-Netflix-Quicksand-Maja.png",
+        "color":"pink",
+        "code":"103"
+    },
+    {
+        "name":"The <br>Originals",
+        "image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3uOPO4AyUwLxPECtXE0wxuW2kL8OR-iNzIEkqW067bcE-tmk-ZjPIv222VTn3sBqg1CU&usqp=CAU",
+        "color":"white",
+        "code":"104"
+    },
+    {
+        "name":"Teen Wolf",
+        "image":"https://image.tmdb.org/t/p/original/jNXJYR4F18ykAujstJFBryhnYyO.jpg",
+        "color":"pink",
+        "code":"101"
+    },
+    {
+        "name":"Crown",
+        "image":"https://venngage-wordpress.s3.amazonaws.com/uploads/2018/03/font-psychology-17.png",
+        "color":"yellow",
+        "code":"102"
+    },
+    {
+        "name":"Carnations",
+        "image":"https://mmarchny.com/wp-content/themes/ippo-shop-child/assets/images/qs/updated/MMarch-Design-Netflix-Quicksand-Maja.png",
+        "color":"pink",
+        "code":"103"
+    },
+    {
+        "name":"Stranger Things",
+        "image":"https://images-na.ssl-images-amazon.com/images/I/81akueB8XVL._SY879_.jpg",
+        "color":"white",
+        "code":"104"
+    }
+]

@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<catalog>
+   <book id="bk101">
+      <episode>Episode 1</episode>
+      <title>Wolf Moon</title>
+      <description>An unusual occurrence while searching for a missing body in the woods 
+      with his best friend gives sophomore Scott McCall everything he'd ever wanted:
+       new lacrosse abilities, a date with the girl of his dreams, and supernatural skills.
+        But is there a downside to these new powers</description>
+        <link>fetch.html</link>
+   </book>
+   <book id="bk102">
+       <episode>Episode 2</episode>
+      <title>Second Chance 
+      at First line</title>
+      <description>Scott tries to control his new werewolf powers, and faces mounting pressure from
+       friends (including new love interest, Allison) and family alike to play in the coming 
+       lacrosse game. Can he stop his transformation before it's too late?</description>
+        <link>fetch.html</link>
+   </book>
+   <book id="bk103">
+       <episode>Episode 3</episode>
+      <title>Pack Mentality</title>
+      <description>Scott is shaken when a nightmare coincides uncannily with the mauling of a school
+       bus driver, an attack that puts Sheriff Stilinski and the rest of Beacon Hills on high alert.
+        Meanwhile, Scott is excited for his first date with Allison, until it becomes a confusing
+         group date with Lydia and Jackson to the bowling alley</description>
+         <link>fetch.html</link>
+  
+   </book>
+   <book id="bk104">
+      <episode>Episode 4</episode>
+      <title>Magic Bullet</title>
+      <description>Kate Argent, Allison's aunt, arrives in town and is attacked by the Alpha. 
+      While fighting it off, she shoots Derek. Now, Scott has to make it through an awkward family 
+      dinner with the Argents to get a bullet to save him, while Stiles and Derek attempt to slow
+       the effects of the wound.</description>
+  <link>fetch.html</link>
+   </book>
+   <book id="bk105">
+   <episode>Episode 5</episode>
+      <title>The tell</title>
+      <description>Lydia and Jackson witness an animal attack at the video store. Kate gives Allison
+       a family heirloom and encourages her to use it to learn more about the family history.
+        Meanwhile, Derek must deal with the werewolf hunters on his own. Scott and Allison skip school,
+         but are soon caught by their families at parent-teacher conferences</description>
+  <link>fetch.html</link>
+   </book>
+   <book id="bk106">
+     <episode>Episode 6</episode>
+      <title>Heart Monitor</title>
+      <description>Scott attempts to control his anger and transformation so he can spend more time 
+      with Allison, assisted by Stiles and a heart monitor. Derek continues trying to make an ally 
+      of Scott in order to defeat the Alpha, and Jackson is feeling the effects of having been 
+      scratched.</description>
+      <link>fetch.html</link>
+   </book>
+   <book id="bk107">
+<episode>Episode 7</episode>
+      <title>Night School</title>
+      <description>Responding to Scott's howl, the alpha savages Derek and traps Scott and Stiles
+       in their high school. Events escalate even further when Allison, Jackson and Lydia are lured
+        to the school as well with a phony text message. At the end of the night, 
+        Allison breaks up with Scott after saying she cannot trust him</description>
+        <link>fetch.html</link>
+   </book>
+   <book id="bk108">
+     <episode>Episode 8</episode>
+      <title>Lunatic</title>
+      <description>As Scott's second full moon approaches, he gives in to his animal urges and hurts
+       Stiles, but Stiles gets a measure of revenge in locking him up. Meanwhile, Jackson continues
+        to try to get closer to Allison. The Argents learn that Scott somehow knew Derek.</description>
+        <link>fetch.html</link>
+   </book>
+   <book id="bk109">
+      <episode>Episode 9</episode>
+      <title>Wolf's bane</title>
+      <description>Jackson discovers that he has aconite poisoning and thinks he has figured out what is 
+      up with Scott. Meanwhile, Derek hides from the manhunt in Stiles' room while Stiles and Scott try 
+      to get Allison's necklace and any clues that may lead to the identity of the alpha. 
+      Teammate Danny lends Stiles his internet expertise to help in the search. 
+      Derek and Stiles discover the identity of the Alpha.</description>
+      <link>fetch.html</link>
+   </book>
+   <book id="bk110">
+     <episode>Episode 10</episode>
+      <title>Co captain</title>
+      <description>The Alpha finally reveals himself to Scott who happens to be Peter, Derek's uncle and gives
+       him an idea of why he has killed certain people. Argent stages an encounter thinking that
+        Jackson may be a werewolf. Meanwhile, Allison discovers a bit more about her
+         family's secrets and confronts Lydia about her kissing Scott</description>
+         <link>fetch.html</link>
+         
+   </book>
+   <book id="bk111">
+      <episode>Episode 11</episode>
+      <title>Formality</title>
+      <description>Kate has Derek chained up in a basement following her attack on his house and shows him 
+      off to Allison before torturing him. The coach has banned Scott from the Spring Formal in exchange for
+       not dropping him from the team for academic 
+      reasons</description>
+      <link>fetch.html</link>
+   </book>
+   <book id="bk112">
+     <episode>Episode 12</episode>
+      <title>Code Breaker</title>
+      <description>Argent decides to send Allison and his sister Kate to Washington. Stiles helps Peter 
+      locate Derek. Meanwhile,Jackson is called to get Lydia to the hospital. Scott must cope with the
+       girl he loves knowing his secret. Argent and the  hunters try to get Scott's location out of Stiles
+        and Jackson.</description>
+        <link>fetch.html</link>
+   </book>
+</catalog>

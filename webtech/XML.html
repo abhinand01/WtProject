@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body
+        {
+            background-color: black;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h2>Watch Now</h2>
+    <br>
+    
+    <div id='content'>
+        <table id='books' cellpadding='10px' style="text-align:left; color: white;">
+            <thead>
+                              
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        let xmlContent = '';
+        let tableBooks = document.getElementById('books');
+        fetch('node.xml').then((response)=> {
+            response.text().then((xml)=>{
+                xmlContent = xml;
+
+                let parser = new DOMParser();
+                let xmlDOM = parser.parseFromString(xmlContent, 'application/xml');
+                let books = xmlDOM.querySelectorAll('book');
+
+                books.forEach(bookXmlNode => {
+
+                    let row = document.createElement('tr');
+
+                    //author
+                    let td = document.createElement('td');
+                    td.innerText = bookXmlNode.children[0].innerHTML;
+                    row.appendChild(td);
+
+                    //  title
+                    td = document.createElement('td');
+                    td.innerText = bookXmlNode.children[1].innerHTML;
+                    row.appendChild(td);
+                    
+                    
+
+                    //description
+                    td = document.createElement('td');
+                    td.innerText = bookXmlNode.children[2].innerHTML;
+                    row.appendChild(td);
+
+                    td=document.createElement('td');
+                    let btn = document.createElement("button");
+                    btn.innerHTML = "Watch now";
+                    btn.onclick = function () {
+                        var a =bookXmlNode.children[3].innerHTML;
+                        alert("done");
+                        console.log(a);
+                    //window.location.href=bookXmlNode.children[3];
+                    };
+                    td.append(btn);
+                    row.append(td);
+
+                    tableBooks.children[1].appendChild(row);
+                    
+                });
+                
+            });
+        });    
+    </script>
+</body>
+</html>
